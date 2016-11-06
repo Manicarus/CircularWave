@@ -12,7 +12,7 @@ OS X의 경우 Homebrew Package Manager을 이용해서 설치하면 매우 간�
 
 ## 스크린샷
 
-![Screenshot](./Circular_Wave_Screenshot.tiff)
+![Screenshot](./Circular_Wave_Screenshot.png)
 
 ## 설명
 
