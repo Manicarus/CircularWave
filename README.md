@@ -92,7 +92,7 @@ while not done:
 
 프로그램 전체를 `while`문 안에서 구동하고 있다. Pygame을 비롯한 여러 GUI 라이브러리는 Double Buffering을 지원해서 콘솔창에서 일어나는 일들이 자연스럽게 보여질 수 있도록 도와준다. Double Buffer는 Front Buffer와 Back Buffer로 이루어져 있는데, Front Buffer는 현재 콘솔창에서 보여지는 부분이고, Back Buffer는 다음에 보여질 화면을 그리는 부분이다.
 
-`screen.fill()` 함수는 `(0, 0, 0)`(RGB로 따졌을 때 검은색에 해당하는) 값을 넣어줘서 Back Buffer을 모두 검은색으로 칠하고 있고, 마지막에 `pygame.display.flip()` 함수를 사용해서 Front Buffer와 Back Buffer을 사로 바꿔주고, Back Buffer에 그렸던 것이 콘솔창에 보이게 한다.
+`screen.fill()` 함수는 `(0, 0, 0)`(RGB로 따졌을 때 검은색에 해당하는) 값을 넣어줘서 Back Buffer을 모두 검은색으로 칠하고 있고, 마지막에 `pygame.display.flip()` 함수를 사용해서 Front Buffer와 Back Buffer을 서로 바꿔주고, Back Buffer에 그렸던 것이 콘솔창에 보이게 한다.
 
 ## 한 걸음 더 나아가기
 
